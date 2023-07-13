@@ -27,6 +27,26 @@ function CitiesProvider({ children }) {
     fetchCities();
   }, []);
 
+  async function createCity(newCity) {
+    try {
+      setIsLoading(true);
+
+      const res = await fetch(`${BASE_URL}/cities`, {
+        method: 'POST',
+        body: JSON.stringify(newCity),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+      const data = await res.json();
+      setCities([...cities, data]);
+    } catch (error) {
+      console.log('Could not store city into the server...');
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
   async function getCity(id) {
     try {
       setIsLoading(true);
@@ -47,6 +67,7 @@ function CitiesProvider({ children }) {
         cities,
         isLoading,
         getCity,
+        createCity,
         currentCity,
       }}
     >

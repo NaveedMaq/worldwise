@@ -37,28 +37,148 @@
       "id": 98443197
     },
     {
-      "cityName": "Barcelona",
+      "cityName": "Alcorisa",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "date": "2023-07-13T16:00:09.974Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "40.88029480552824",
+        "lng": "-0.31860351562500006"
       },
-      "id": 98735924
+      "id": 98443198
     },
     {
-      "cityName": "Hamburg",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Teruel",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-07-13T16:01:14.048Z",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "40.25856876391262",
+        "lng": "-1.0382080078125002"
       },
-      "id": 82479123
+      "id": 98443199
+    },
+    {
+      "cityName": "Puertomingalvo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-07-13T16:01:31.679Z",
+      "notes": "",
+      "position": {
+        "lat": "40.300476079749494",
+        "lng": "-0.45593261718750006"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Altura",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-07-13T16:01:42.554Z",
+      "notes": "",
+      "position": {
+        "lat": "34.0438916",
+        "lng": "74.7562347"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Fatima",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2023-07-13T16:02:18.282Z",
+      "notes": "TEST",
+      "position": {
+        "lat": "39.62684598486692",
+        "lng": "-8.684692382812502"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "A Dakhla Oasis",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2023-07-13T16:05:46.483Z",
+      "notes": "Misr",
+      "position": {
+        "lat": "25.799891182088334",
+        "lng": "28.1689453125"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Al Jawf",
+      "country": "Libya",
+      "emoji": "🇱🇾",
+      "date": "2023-07-13T16:06:23.616Z",
+      "notes": "",
+      "position": {
+        "lat": "26.07652055985697",
+        "lng": "19.423828125000004"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Bilma",
+      "country": "Niger (the)",
+      "emoji": "🇳🇪",
+      "date": "2023-07-13T16:06:28.117Z",
+      "notes": "",
+      "position": {
+        "lat": "20.2209657795223",
+        "lng": "13.754882812500002"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Arlit",
+      "country": "Niger (the)",
+      "emoji": "🇳🇪",
+      "date": "2023-07-13T16:06:34.366Z",
+      "notes": "",
+      "position": {
+        "lat": "19.435514339097825",
+        "lng": "7.294921875000001"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Surankot",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-07-13T16:06:43.416Z",
+      "notes": "",
+      "position": {
+        "lat": "33.687781758439364",
+        "lng": "74.35546875000001"
+      },
+      "id": 98443207
+    },
+    {
+      "cityName": "Badgam",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-07-13T16:07:17.354Z",
+      "notes": "",
+      "position": {
+        "lat": "34.0438916",
+        "lng": "74.7562347"
+      },
+      "id": 98443208
+    },
+    {
+      "cityName": "Badgam",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-07-13T16:07:21.851Z",
+      "notes": "",
+      "position": {
+        "lat": "34.0438916",
+        "lng": "74.7562347"
+      },
+      "id": 98443209
     }
   ]
 }
