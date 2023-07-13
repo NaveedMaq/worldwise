@@ -47,6 +47,22 @@ function CitiesProvider({ children }) {
     }
   }
 
+  async function deleteCity(id) {
+    try {
+      setIsLoading(true);
+
+      await fetch(`${BASE_URL}/cities/${id}`, {
+        method: 'DELETE',
+      });
+
+      setCities((cities) => cities.filter((city) => city.id !== id));
+    } catch (error) {
+      console.log('Could not delete city from the server...');
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
   async function getCity(id) {
     try {
       setIsLoading(true);
@@ -69,6 +85,7 @@ function CitiesProvider({ children }) {
         getCity,
         createCity,
         currentCity,
+        deleteCity,
       }}
     >
       {children}
