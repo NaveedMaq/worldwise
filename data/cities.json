@@ -37,16 +37,28 @@
       "id": 98443197
     },
     {
-      "cityName": "Oliva",
+      "cityName": "Badgam",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2023-07-15T11:15:44.527Z",
+      "notes": "I live here",
+      "position": {
+        "lat": "34.0438986",
+        "lng": "74.7562608"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Cortes de Arenoso",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2023-07-13T16:15:45.720Z",
-      "notes": "Helo\n",
+      "date": "2023-07-15T15:57:13.100Z",
+      "notes": "",
       "position": {
-        "lat": "34.0438916",
-        "lng": "74.7562347"
+        "lat": "40.12849105685408",
+        "lng": "-0.5603027343750001"
       },
-      "id": 98443198
+      "id": 98443200
     }
   ]
 }
